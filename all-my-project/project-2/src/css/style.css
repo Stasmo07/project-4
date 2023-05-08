@@ -1,0 +1,1277 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../Desktop/project-2/src/ sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../../../../../Desktop/project-2/src/ sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../../../../Desktop/project-2/src/ sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../../../../Desktop/project-2/src/ sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../../../../Desktop/project-2/src/ sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../../../../Desktop/project-2/src/ sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../../../../Desktop/project-2/src/ sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../../../../Desktop/project-2/src/ sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../../../../Desktop/project-2/src/ sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../../../../../Desktop/project-2/src/ sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, ../../../../../Desktop/project-2/src/ sass/style.sass */
+html {
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../font/Montserrat-Regular.ttf);
+  font-display: swap;
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../font/Montserrat-SemiBold.ttf);
+  font-display: swap;
+  font-weight: bold;
+  font-style: notmal;
+}
+
+/* line 29, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 33, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background-color: #f0f0f0;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+/* line 40, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 47, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.main-section__logo {
+  width: 134px;
+}
+
+/* line 49, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.main-section__contant-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 53, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 80px;
+}
+
+/* line 57, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 64, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 67, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 71, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 73, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 78, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 80, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  top: 5px;
+  z-index: 5;
+}
+
+/* line 84, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.left-wrapper__rectangle-blue {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  width: 565.95px;
+  height: 220px;
+  background: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 95, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 106, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 119, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 5;
+}
+
+/* line 125, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 128, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 130, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 134, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icons {
+  display: inline-flex;
+}
+
+/* line 137, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5290EA;
+  border-radius: 100px;
+  margin-right: 17px;
+}
+
+/* line 146, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 148, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 150, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+  font-weight: bold;
+}
+
+/* line 154, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.title__hr {
+  width: 65px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+}
+
+/* line 163, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 165, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 178, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 181, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.buttons__text {
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 185, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icon-chat {
+  margin-right: 12px;
+}
+
+/* line 188, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 199, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+  background-radius: 100px;
+}
+
+/* line 203, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 208, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
+  border-radius: 100px;
+}
+
+/* line 213, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  min-height: 700px;
+  position: relative;
+}
+
+/* line 220, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__container {
+  padding-top: 32px;
+  position: relative;
+}
+
+/* line 225, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__title {
+  margin-bottom: 40px;
+}
+
+/* line 227, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__cards-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+/* line 231, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__cards-item {
+  margin-right: 30px;
+}
+
+/* line 233, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 235, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 239, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__icons-item {
+  margin-right: 50px;
+}
+
+/* line 241, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 243, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 248, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 360px;
+  left: -60px;
+  z-index: -1;
+}
+
+/* line 255, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.cards-item {
+  position: relative;
+  height: 360px;
+  width: 360px;
+  background: #e2e2e2;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 263, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.cards-item__img {
+  height: 335px;
+}
+
+/* line 265, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.cards-item__text {
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 144px;
+  right: -45px;
+  font-weight: bold;
+}
+
+/* line 275, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.cards-item_orange {
+  background-color: #F28B64;
+}
+
+/* line 278, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.cards-item_blue {
+  background-color: #5290EA;
+}
+
+/* line 280, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 283, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 286, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 288, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 291, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  max-width: 1440;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* line 299, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 306, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 308, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 310, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.third-section__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+/* line 313, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  let: 110px;
+  z-index: -1;
+}
+
+/* line 318, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+
+/* line 323, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 330, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.title__hr-top {
+  bottom: 75px;
+}
+
+/* line 334, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 338, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 343, ../../../../../Desktop/project-2/src/ sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 347, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 349, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 352, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .left-wrapper img {
+    width: 750px;
+  }
+  /* line 354, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 358, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 550px;
+    height: 200px;
+  }
+  /* line 362, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 365, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .right-wrapper {
+    right: 20px;
+  }
+  /* line 367, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .main-section__first-elipse {
+    right: 10px;
+  }
+  /* line 369, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .main-section__second-elipse {
+    top: 50px;
+  }
+  /* line 372, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
+  /* line 374, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .cards-item {
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+  }
+  /* line 378, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .cards-item__img {
+    height: 270px;
+  }
+  /* line 380, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .cards-item__text {
+    top: 120px;
+    font-size: 30px;
+  }
+  /* line 383, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .icons-item__img {
+    margin-right: 10px;
+  }
+  /* line 385, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+  }
+  /* line 387, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section__lefr-title {
+    padding-left: 80px;
+  }
+  /* line 390, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 397, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .main-section {
+    min-height: 530px;
+  }
+  /* line 399, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .main-section__second-elipse {
+    top: 400px;
+  }
+  /* line 402, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 405, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .left-wrapper img {
+    width: 550px;
+  }
+  /* line 407, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 410, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 400px;
+    height: 130px;
+  }
+  /* line 413, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 417, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .title {
+    font-size: 50px;
+  }
+  /* line 419, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .right-wrapper {
+    top: 75px;
+    width: 300px;
+  }
+  /* line 423, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  /* line 426, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .buttons__main-btn {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  /* line 431, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .elipse {
+    height: 150px;
+    width: 150px;
+  }
+  /* line 434, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .elipse__subtract {
+    height: 110px;
+    width: 110px;
+  }
+  /* line 437, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .elipse__subtract_big {
+    height: 170px;
+    width: 170px;
+  }
+  /* line 441, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .elipse_dig {
+    width: 250px;
+    height: 250px;
+  }
+  /* line 445, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .second-section {
+    min-height: 450px;
+  }
+  /* line 447, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .second-section__container {
+    padding-top: 20px;
+  }
+  /* line 450, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .buttons__text {
+    font-size: 14px;
+  }
+  /* line 452, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .cards-item {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  /* line 456, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .cards-item img {
+    height: 190px;
+  }
+  /* line 458, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .cards-item__text {
+    top: 80px;
+    font-size: 22px;
+    width: 180px;
+  }
+  /* line 462, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 464, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .icons-item__img {
+    width: 50px;
+  }
+  /* line 466, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .icons-item__text {
+    width: 45px;
+  }
+  /* line 468, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .icons-item__text span {
+    font-size: 24px;
+  }
+  /* line 470, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .second-section__icons-box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* line 473, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .second-section__first-elipse {
+    top: 95px;
+    right: -1px;
+  }
+  /* line 476, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .second-section__second-elipse {
+    top: 250px;
+    left: 0px;
+  }
+  /* line 479, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section__text {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  /* line 482, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .title__hr-top {
+    bottom: 50px;
+  }
+  /* line 484, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section__figure {
+    left: -25px;
+  }
+  /* line 486, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section {
+    min-height: 500px;
+  }
+  /* line 488, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section__lefr-title {
+    display: none;
+  }
+  /* line 490, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 600px;
+  }
+  /* line 492, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .third-section__container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  /* line 496, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .footer__container {
+    min-height: 210px;
+  }
+  /* line 499, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .footer__img {
+    width: 500px;
+  }
+  /* line 501, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .footer__title {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 510, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 513, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: #5290EA;
+    z-index: 30;
+    transition: 1s all;
+  }
+  /* line 524, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 529, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 533, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+  }
+  /* line 539, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 547, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .hamburger span__last-child {
+    margin-bottom: 0px;
+  }
+  /* line 550, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 552, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 554, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 556, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 558, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 568, ../../../../../Desktop/project-2/src/ sass/style.sass */
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

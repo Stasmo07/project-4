@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "resets.css",
+	"sources": [
+		"../ sass/resets.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}
