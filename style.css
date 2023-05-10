@@ -1,0 +1,409 @@
+@charset "UTF-8";
+.nav {
+  display: inline;
+}
+
+.nav-menu {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.login-registration-block {
+  display: block;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.background-gradient {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 777px;
+  background: conic-gradient(from 195.98deg at 73.54% 19.77%, #4629F2 0deg, #13C6FF 125.63deg, #B94DFB 215.62deg, #FF53EE 294.38deg, #F3B960 360deg);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.nav-menu {
+  display: inline-block;
+}
+
+.login-registration-block {
+  display: inline-block;
+}
+
+.nav-link {
+  width: 30px;
+  height: 10px;
+  margin: 0 20px;
+}
+
+.login-registration-block {
+  margin-left: 400px;
+}
+
+.greeting {
+  display: flex;
+  margin-top: 80px;
+}
+
+.improve {
+  max-width: 653px;
+  height: 406px;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+p {
+  font-size: 18px;
+  width: 552px;
+}
+
+.button-black {
+  color: white;
+  width: 155px;
+  background: #0D082C;
+  border-radius: 100px;
+  padding: 15px 35px;
+  gap: 8px;
+}
+
+.button-white {
+  border-radius: 100px;
+  padding: 15px 35px;
+}
+
+.chat {
+  width: 450px;
+  height: 500px;
+  margin: 0 0 0 7px;
+  padding-top: 60px;
+  font-size: 16px;
+  color: white;
+}
+
+.my-answer {
+  width: 400px;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.text {
+  margin: 0 0 0 7px;
+  background: rgba(70, 41, 242, 0.8);
+  border-radius: 10px 0px 10px 10px;
+  padding: 10px 15px;
+  align-content: center;
+}
+
+.text1 {
+  align-content: center;
+  justify-content: center;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+}
+
+.question__text1 {
+  display: flex;
+  align-items: flex-start;
+  width: 285px;
+  height: 68px;
+  background: rgba(29, 23, 72, 0.5);
+  border-radius: 0px 10px 10px 10px;
+}
+
+.title-1 {
+  width: 625px;
+  height: 108px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  color: #0D082C;
+  margin-left: 30%;
+}
+
+.paragraf-1 {
+  width: 556px;
+  height: 52px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(13, 8, 44, 0.6);
+  margin-left: 32%;
+  margin-bottom: 40px;
+}
+
+.cards {
+  width: 1400px;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.cards__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.card {
+  width: 26.00%;
+  padding: 0 40px;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  background: #4635F3;
+  border-radius: 6px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 820px;
+  background-color: #f5ac76;
+}
+
+/* третья секция  */
+.text__third-section {
+  margin-left: 250px;
+  margin-top: 150px;
+  padding-top: 200px;
+  width: 470px;
+  height: 200px;
+}
+
+h3 {
+  font-size: 38px;
+  font-family: Merriweather;
+}
+
+.second-button {
+  margin-left: 250px;
+  margin-top: 40px;
+}
+
+.skrinchat {
+  position: absolute;
+  margin-top: 94px;
+  margin-left: 1100px;
+  width: 491px;
+  height: 674px;
+  transform: rotate(9.12deg);
+}
+
+.p2 {
+  line-height: 1.5;
+}
+
+.main-section__box {
+  width: 600px;
+  height: 126px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+
+.second-box {
+  margin-left: 20px;
+}
+
+.title-2 {
+  width: 650px;
+  height: 40px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  color: #0D082C;
+  margin-left: 30%;
+}
+
+.paragraf-2 {
+  width: 600px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(13, 8, 44, 0.6);
+  margin-left: 32%;
+  margin-bottom: 40px;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1400px;
+  height: 396px;
+  font-family: DM Sans;
+  margin-left: 200px;
+  justify-content: space-around;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 360px;
+  height: 396px;
+}
+
+.name-price {
+  color: white;
+  background-color: #4635f3;
+  font-size: 22px;
+  width: 360px;
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.name-price2 {
+  color: white;
+  background-color: #f5ac76;
+  font-size: 22px;
+  width: 360px;
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.name-price3 {
+  color: white;
+  background-color: #ff5391;
+  font-size: 22px;
+  width: 360px;
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+li:before {
+  content: " ✅ ";
+}
+
+.h5 {
+  font-size: 40px;
+  margin: 15px auto;
+}
+
+.button-box1 {
+  width: 300px;
+  height: 42px;
+  background: #4635F3;
+  border-radius: 6px;
+  margin-left: 35px;
+  color: white;
+}
+
+.button-box2 {
+  width: 300px;
+  height: 42px;
+  background: #f5ac76;
+  border-radius: 6px;
+  margin-left: 35px;
+  color: white;
+}
+
+.button-box3 {
+  width: 300px;
+  height: 42px;
+  background: #ff5391;
+  border-radius: 6px;
+  margin-left: 35px;
+  color: white;
+}
+
+.footer__block {
+  display: flex;
+  flex-direction: row;
+}
+
+.h6 {
+  width: 800px;
+  height: 116px;
+  font-size: 40px;
+  margin-left: 250px;
+}
+
+.p6 {
+  width: 700px;
+}
+
+.button-footer {
+  color: white;
+  width: 155px;
+  background: #0D082C;
+  border-radius: 100px;
+  padding: 15px 35px;
+  gap: 8px;
+  margin-left: 330px;
+  margin-top: 100px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 50px 0px;
+  gap: 20px;
+  width: 1450px;
+  height: 366px;
+  justify-content: space-evenly;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.copyright {
+  width: 320px;
+  height: 25px;
+  margin-left: 700px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: rgba(13, 8, 44, 0.4);
+}
